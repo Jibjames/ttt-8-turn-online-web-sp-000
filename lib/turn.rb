@@ -1,7 +1,7 @@
 
-def input_to_index(str)
-  str = str.to_i - 1
-  return str
+def input_to_index(input)
+  input = input.to_i - 1
+  return input
 end
 
 def display_board(board)
